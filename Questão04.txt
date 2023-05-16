@@ -1,0 +1,6 @@
+Props drilling é um problema que pode tornar o código mais complexo e mais difícil de se fazer manutenção.
+Ele acontece quando os dados de um código precisam passar por vários níveis de componentes.
+Os contextos podem resolver esse problema porque eles permitem a criação de uma forma de comparilhar dados entre componentes, sem que seja preciso passar os props através de cada nível.
+Os contextos irão conter os dados a serem compartilhados.
+Os componentes podem acessar esses dados diretamente do contexto, sem a necessidade de passá-los como props.
+Essa abordagem facilita o compartilhamento de dados e torna o código mais limpo e organizado, evitando a necessidade de passar as props manualmente por todos os componentes intermediários.
